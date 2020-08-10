@@ -1,6 +1,7 @@
 npx create-react-app journal-app
 npm install react-redux redux
-
+npm install firebase
+npm install --save redux-thunk
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
