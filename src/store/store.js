@@ -12,7 +12,7 @@ const composeEnhancers =
 const reducers = combineReducers({
   auth: authReducer,
   ui: uiReducer,
-  notes: notesReducer
+  notes: notesReducer,
 });
 export const store = createStore(
   reducers,
