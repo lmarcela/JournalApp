@@ -7,29 +7,11 @@ const initialState = {
 
 export const notesReducer = (state = initialState, action) => {
   switch (action.type) {
-    /* case types.uiSetError:
+    case types.notesActive:
       return {
         ...state,
-        msgError: action.payload,
+        active: { ...action.payload },
       };
-
-    case types.uiRemoveError:
-      return {
-        ...state,
-        msgError: null,
-      };
-
-    case types.uiStartLoading:
-      return {
-        ...state,
-        loading: true,
-      };
-
-    case types.uiFinishLoading:
-      return {
-        ...state,
-        loading: false,
-      }; */
 
     default:
       return state;
