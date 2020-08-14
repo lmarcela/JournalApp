@@ -44,10 +44,7 @@ export const NoteScreen = () => {
         ></textarea>
         {note.url && (
           <div className="notes__image">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/12/20/23/07/landscape-4709500_960_720.jpg"
-              alt="imagen"
-            />
+            <img src={note.url} alt="imagen" />
           </div>
         )}
       </div>
