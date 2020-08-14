@@ -34,7 +34,7 @@
 .journal__entries {
   flex: 1 1 auto;
   margin-top: 30px;
-  overflow-y: scroll;
+  overflow-y: overlay;//scroll
 }
 .journal__entry {
   background-color: white;
