@@ -19,7 +19,7 @@ export const NotesAppBar = () => {
   }
   return (
     <div className="notes__appbar">
-      <span>08 de agosto 2020</span>
+      <span>JournalApp</span>
       <input id='fileSelector' name='file' type='file' style={{display: 'none'}} onChange={handleFileChange}/>
       <div>
         <button className="btn" onClick={handlePictureClick}>Picture</button>

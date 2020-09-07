@@ -30,7 +30,7 @@ export const AppRouter = () => {
   }, [dispatch, setChecking, setIsLoggedIn]);
 
   if (checking) {
-    return <h1>Wait...</h1>;
+    return <h1><i className="fa fa-spinner fa-spin" /> Wait...</h1>;
   }
 
   return (
